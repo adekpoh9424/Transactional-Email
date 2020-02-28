@@ -1,0 +1,643 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 15px;
+  margin: 15px;
+}
+
+.welcome {
+  background: #fff;
+}
+.friday {
+  padding: 15px;
+  padding-top: 10%;
+  text-align: center;
+  margin: 15px;
+  height: 2rem;
+  font-size: 35px;
+  color: lightslategray;
+}
+
+.thanks {
+  padding: 15px;
+  margin: 15px;
+  background: #7395ae;
+}
+
+.thanks .fab {
+  margin: 10px;
+  font-weight: lighter;
+}
+
+.thanks h2 {
+  float: right;
+  margin-top: -60px;
+  font-weight: normal;
+  padding: 5px;
+}
+
+.thanks-l,
+.thanks-2 {
+  padding-left: 60px;
+  color: lightgrey;
+}
+
+.thanks-2 {
+  font-size: 40px;
+}
+
+.fa-car {
+  font-size: 160px;
+  padding-left: 500px;
+}
+
+.your-total {
+  padding: 15px;
+  margin: 15px;
+}
+
+.total h1 {
+  font-size: 45px;
+}
+
+.ma-ma {
+  float: right;
+  margin-top: -90px;
+}
+
+.fa-gem {
+  font-size: 10px;
+  color: blue;
+  margin: 5px;
+}
+
+.total p {
+  color: #7395ae;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.saved {
+  content: "";
+  display: block;
+  width: 40%;
+  margin-bottom: 30px;
+  border: 2px solid #7395ae;
+  border-radius: 3px;
+  padding: 10px;
+  border-left: 10px solid #7395ae;
+}
+
+.trip {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #7395ae;
+  margin-bottom: 40px;
+}
+
+.money {
+  font-size: 45px;
+  float: right;
+  margin-top: -80px;
+  margin-bottom: 25px;
+}
+
+.sub {
+  margin-top: 45px;
+  font-weight: normal;
+  color: #7395ae;
+}
+
+.money-1 {
+  float: right;
+  margin-top: -20px;
+}
+
+.promo {
+  margin-top: 15px;
+  font-weight: normal;
+  color: #7395ae;
+}
+
+.green {
+  color: lightgreen;
+  float: right;
+  margin-top: -20px;
+}
+
+.tolls {
+  margin-top: 30px;
+  font-weight: normal;
+  color: #7395ae;
+  margin-bottom: 38px;
+}
+
+.fa-question-circle {
+  color: blue;
+  padding: 4px;
+}
+
+.fees {
+  float: right;
+  margin-top: -65px;
+}
+
+.fa-cc-mastercard {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #05386b;
+}
+
+.light-switch {
+  color: blue;
+}
+
+.digit {
+  float: right;
+  margin-top: -38px;
+}
+
+.hold {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #031827;
+  font-size: 15px;
+}
+
+.uber-reward {
+  color: #7395ae;
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.rewards {
+  margin-top: 30px;
+  padding: 10px;
+  font-weight: normal;
+  color: #031827;
+}
+
+.digit-n {
+  float: right;
+  margin-top: -20px;
+}
+
+.your-ride {
+  margin: 15px;
+  padding: 15px;
+  background: #031827;
+  margin-bottom: 30px;
+}
+
+.driver-name {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #7395ae;
+}
+
+.fa-user-check {
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 45px;
+  position: relative;
+  color: #fff;
+  bottom: 5px;
+}
+
+.passed {
+  font-size: 10px;
+  margin-left: 100px;
+  position: relative;
+  color: #fff;
+  bottom: 50px;
+}
+
+.rating {
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.you-ride {
+  position: relative;
+}
+.his-name {
+  position: relative;
+  bottom: 28px;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.opinion {
+  margin-top: 60px;
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.button {
+  width: 45%;
+  background: #05386b;
+  padding: 10px;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.my-trip {
+  color: white;
+  display: flex;
+}
+
+.fa-user-secret {
+  float: right;
+  margin-top: -450px;
+  font-size: 350px;
+  color: white;
+  margin-right: 70px;
+}
+
+.secret {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.pool-with {
+  padding: 15px;
+  margin: 15px;
+}
+
+.pool,
+.distance {
+  text-align: center;
+}
+
+.pool-1 {
+  border-radius: 30px;
+  background: black;
+  color: white;
+  width: 4%;
+  position: relative;
+  left: 500px;
+  top: 20px;
+}
+
+.miles {
+  margin-bottom: 15px;
+}
+.start {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: black;
+}
+
+.uber-h1,
+.the-h5,
+.about-p {
+  color: white;
+}
+
+h6 {
+  color: white;
+  margin-top: 15px;
+}
+
+.address p {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+.the-h5 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.my-password,
+.about-p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .fa-user-secret {
+    font-size: 200px;
+    position: relative;
+    margin-top: -300px;
+  }
+  .pool-1 {
+    margin-left: -280px;
+    width: 45px;
+  }
+
+  .footer {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .friday {
+    padding: 15px;
+    padding-top: 10%;
+    text-align: center;
+    margin: 15px;
+    height: 1rem;
+    font-size: 15px;
+    color: lightslategray;
+  }
+
+  .thanks {
+    background: #7395ae;
+  }
+
+  .fa-uber {
+    font-size: 20px;
+  }
+
+  .thanks h1 {
+    font-size: 18px;
+  }
+
+  .thanks h2 {
+    float: right;
+    margin-top: -60px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+  }
+
+  .fa-car {
+    font-size: 60px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 9px;
+  }
+
+  .thanks-2 {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 15px;
+  }
+
+  .thanks-l {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15px;
+  }
+
+  .your-total {
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .total h1 {
+    font-size: 25px;
+  }
+
+  .ma-ma {
+    float: right;
+    margin-top: -50px;
+  }
+
+  .fa-gem {
+    font-size: 10px;
+    color: blue;
+    margin: 5px;
+  }
+
+  .total p {
+    color: #7395ae;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .saved {
+    content: "";
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid #7395ae;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    margin-left: -15px;
+    border-left: 10px solid #7395ae;
+  }
+
+  .trip {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #7395ae;
+    margin-bottom: 40px;
+  }
+
+  .money {
+    font-size: 25px;
+    float: right;
+    margin-top: -70px;
+    margin-bottom: 25px;
+  }
+
+  .sub {
+    margin-top: 45px;
+    font-weight: normal;
+    color: #7395ae;
+  }
+
+  .money-1 {
+    float: right;
+    margin-top: -28px;
+  }
+
+  .promo {
+    margin-top: 15px;
+    font-weight: normal;
+    color: #7395ae;
+  }
+
+  .green {
+    color: lightgreen;
+    float: right;
+    margin-top: -25px;
+  }
+
+  .tolls {
+    margin-top: 30px;
+    font-weight: normal;
+    color: #7395ae;
+    margin-bottom: 38px;
+  }
+
+  .fa-question-circle {
+    color: blue;
+    padding: 4px;
+  }
+
+  .fees {
+    float: right;
+    margin-top: -65px;
+  }
+
+  .fa-cc-mastercard {
+    margin-top: 40px;
+    font-size: 35px;
+    color: #05386b;
+  }
+
+  .light-switch {
+    color: blue;
+    font-size: 15px;
+  }
+
+  .digit {
+    float: right;
+    margin-top: -26px;
+  }
+
+  .hold {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #031827;
+    font-size: 15px;
+  }
+
+  .uber-reward {
+    color: #7395ae;
+    font-size: 22px;
+    margin-top: 50px;
+  }
+
+  .rewards {
+    margin-top: 30px;
+    font-weight: normal;
+    color: #031827;
+    font-size: 15px;
+  }
+
+  .digit-n {
+    float: right;
+    margin-top: -30px;
+  }
+
+  .your-ride {
+    margin: 15px;
+    padding: 15px;
+    background: #031827;
+    margin-bottom: 30px;
+  }
+
+  .driver-name {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #7395ae;
+  }
+
+  .fa-user-check {
+    font-size: 40px;
+    padding-left: 18px;
+    margin-top: 30px;
+    position: relative;
+    color: #fff;
+    bottom: 5px;
+  }
+
+  .passed {
+    font-size: 10px;
+    margin-left: 100px;
+    position: relative;
+    color: #fff;
+    bottom: 50px;
+  }
+
+  .rating {
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .you-ride {
+    position: relative;
+  }
+  .his-name {
+    position: relative;
+    bottom: 28px;
+    font-size: 20px;
+    margin-left: 15px;
+    color: #fff;
+  }
+
+  .opinion {
+    margin-top: 60px;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+
+  .button {
+    width: 80%;
+    background: #05386b;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  .my-trip {
+    color: white;
+    display: flex;
+  }
+
+  .fa-user-secret {
+    float: right;
+    margin-top: -320px;
+    margin-bottom: 70px;
+    font-size: 60px;
+    color: white;
+    margin-right: 70px;
+    padding-right: 30px;
+  }
+
+  .pool-1 {
+    border-radius: 30px;
+    background: black;
+    color: white;
+    width: 18%;
+    position: relative;
+    left: 280px;
+    top: 20px;
+  }
+
+  .footer {
+    margin-bottom: 5px;
+  }
+}
